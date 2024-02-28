@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# Pokemon search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto React simples que utiliza Vite, focado em buscar informações de Pokémon usando a PokeAPI e exibir suas habilidades. O objetivo é demonstrar uma implementação eficaz de chamadas de API e manipulação de dados no lado do cliente.
 
-Currently, two official plugins are available:
+## Pré-requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de iniciar, certifique-se de ter instalado no seu sistema:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/en/) (versão 14.x ou superior)
+- [npm](https://www.npmjs.com/) (geralmente vem com a instalação do Node.js)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Como Clonar
 
-- Configure the top-level `parserOptions` property like this:
+Para obter uma cópia local, siga estas etapas simples:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Abra o terminal.
+2. Clone o repositório usando o seguinte comando:
+
+```bash
+git clone https://github.com/JoaoCardoso00/Pokemon-search.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Entre na pasta do projeto
+```bash
+cd Pokemon-search
+```
+## Instalando Dependências
+Dentro da pasta do projeto, execute o seguinte comando para instalar todas as dependências necessárias:
+
+```bash
+npm install
+```
+
+Este comando lê o arquivo package.json e instala todas as bibliotecas e ferramentas necessárias para rodar o projeto.
+
+Rodando o Projeto
+Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento local com:
+
+```bash
+npm run dev
+```
+
+Este comando irá iniciar o projeto React em modo de desenvolvimento. Abra http://localhost:3000 para visualizar o projeto no navegador. A página irá recarregar se você fizer edições no código. Você também verá quaisquer erros de lint no console.
