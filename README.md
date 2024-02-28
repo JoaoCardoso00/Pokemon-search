@@ -40,4 +40,4 @@ Após a instalação das dependências, você pode iniciar o servidor de desenvo
 npm run dev
 ```
 
-Este comando irá iniciar o projeto React em modo de desenvolvimento. Abra http://localhost:3000 para visualizar o projeto no navegador. A página irá recarregar se você fizer edições no código. Você também verá quaisquer erros de lint no console.
+Este comando irá iniciar o projeto React em modo de desenvolvimento. Abra http://localhost:5173 para visualizar o projeto no navegador. A página irá recarregar se você fizer edições no código. Você também verá quaisquer erros de lint no console.
